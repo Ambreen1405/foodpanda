@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "open Sans" , sans-serif;
+}
+.btn-1:hover {
+    font-weight: bolder;
+    background-color: transparent;
+    color: black;
+}
+.btn-2 {
+    background-color: rgb(226, 44, 105);
+    color: white;
+}
+.btn-2:hover {
+    font-weight: bolder;
+}
+.nav-right > i {
+    display: none;
+}
+.nav-mid > h5 {
+   
+    display: none;
+}
+.nav-end {
+    display: flex;
+}
+.btn-drop {
+    background-color: transparent;
+    border: none;
+    color: rgb(42, 42, 42);
+    padding: 0rem 1rem;
+}
+.btn-drop:hover {
+    background-color: whitesmoke;
+    color: rgb(42, 42, 42);
+}
+.nav-basket:hover {
+    border: none;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    
+}
+.nav-right > i:hover {
+    border-radius: 100%;
+        background-color: whitesmoke;
+        padding: 1rem;
+}
+.hero-input {
+    width: 40vw;
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+}
+.hero-text {
+    padding: 0rem 1rem;
+    padding-top: 4rem;
+}
+.hero-img {
+   
+    padding: 0rem ;
+}
+.hero-img > img {
+    width: 45vw;
+}
+.hero-bb {
+   
+}
+.hero-input-button {
+    width: 60vw;
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+}
+.hero-input-btn {
+    width: 60vw;
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+.nav-removen {
+
+}
+.shef {
+    position: relative;
+}
+.shef > img {
+    width: 100%;
+    height: 70vh;
+}
+.box {
+    background-color: whitesmoke;
+   box-shadow: 0rem 0rem 2rem gray;
+   border-radius: 5rem;
+   position: relative;
+    padding: 2rem;
+    width: 45vw;
+    top: -10rem;
+    left: 7rem;
+}
+.picture {
+    width: 300px;
+    height: 250px;
+    border-radius: 1rem;
+}
+.picture:hover {
+    transform: scale(1.05);
+}
+.pic {
+}
+.text {
+    position: relative;
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    width: 150px;
+    padding: 0rem 1rem;
+    bottom: 3rem;
+    left: 1rem;
+
+}
+.down {
+    margin: 5rem auto;
+    padding: 1rem;
+    background-color: rgb(226, 44, 105);
+    width: 90vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 2rem;
+
+}
+.pic-scrol {
+    border: 2px solid white;
+}
+.pic-scrol > img {
+    width: 80px;
+}
+.pho > img {
+    width: 500px;
+}
+.phone {
+    /* position: relative;
+    top: -10rem; */
+    width: 50vw;
+    height: 60vh;
+}
+.store {
+    display: flex;
+}
+.para {
+    color: rgb(131, 131, 131);
+}
+.country {
+    padding: 1rem 2rem;
+    color: gray;
+    line-height: 2.5rem;
+}
+.country:hover {
+    font-weight: bolder;
+    color: black;
+    transition: 0.5s;
+}
+.bbba {
+    border: none;
+}
+.reserch {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} 
+li {
+    list-style: none;
+}
+@media (max-width:891px) {
+    .nav-remove {
+        display: none;
+    }
+    .nav-mid > h5 {
+        display: block;
+    }
+    .nav-right > h5 {
+        display: none;
+    }
+    .nav-right > i {
+        display: block;  
+    }
+    .box {
+        width: 70vw;
+    }
+    .phone {
+        top: 10rem;
+    height: 40vh;
+    }
+    .down {
+        flex-wrap: wrap;
+    }
+    .bar {
+        display: none;
+    }
+    .box-left {
+    
+    }
+    .offce {
+        margin-top: 12rem;
+    }
+    .hero-img > img {
+        width: 80vw;
+    }
+    .dad {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+@media (max-width:500px) {
+    .box {
+        width: 90vw;
+        left: 0.5rem;
+    }
+    .store {
+        flex-wrap: wrap;
+    }
+    .down {
+        height: 70vh;
+        text-align: center;
+    }
+}
